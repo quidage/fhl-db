@@ -25,6 +25,63 @@ namespace FhlDb\Model;
  *
  * @author Christian Hansen <christian@herrhansen.com>
  */
-class Customer {
-    //put your code here
+class Customer extends AbstractModel {
+
+    protected $company;
+    protected $first_name;
+    protected $last_name;
+    protected $street;
+    protected $zip;
+    protected $city;
+    
+    public function getCompany() {
+        return $this->company;
+    }
+
+    public function getFirst_name() {
+        return $this->first_name;
+    }
+
+    public function getLast_name() {
+        return $this->last_name;
+    }
+
+    public function getStreet() {
+        return $this->street;
+    }
+
+    public function getZip() {
+        return $this->zip;
+    }
+
+    public function getCity() {
+        return $this->city;
+    }
+
+    public function setCompany($company) {
+        $this->company = $company;
+    }
+
+    public function setFirst_name($first_name) {
+        $this->first_name = $first_name;
+    }
+
+    public function setLast_name($last_name) {
+        $this->last_name = $last_name;
+    }
+
+    public function setStreet($street) {
+        $this->street = $street;
+    }
+
+    public function setZip($zip) {
+        $this->zip = $zip;
+    }
+
+    public function setCity($city) {
+        $this->city = $city;
+    }
+
+
+    
 }

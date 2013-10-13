@@ -23,9 +23,7 @@
 define(APPROOT, dirname(__FILE__));
 
 // autoloader
-require_once '../lib/loader.php';
-
-
+require '../lib/loader.php';
 
 ?>
 
@@ -35,7 +33,9 @@ require_once '../lib/loader.php';
         <title></title>
     </head>
     <body>
+        <h1>Datenbanken</h1>
         <?php
+        
         // put your code here
         ?>
     </body>

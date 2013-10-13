@@ -25,6 +25,6 @@ namespace FhlDb\Model;
  *
  * @author Christian Hansen <christian@herrhansen.com>
  */
-class Route {
+class Route extends AbstractModel {
     //put your code here
 }
